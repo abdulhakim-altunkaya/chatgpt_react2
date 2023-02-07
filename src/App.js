@@ -33,7 +33,7 @@ function App() {
         <form onSubmit={handleSubmit}>
             <input type="text" name="promptInput"
             value={promptInput} onChange={(e) => setPromptInput(e.target.value)}/>
-            <button type="submit">SUBMIT</button>
+            <button type="submit">GET RESPONSE</button>
         </form>
         <div>{displayText}</div>
     </div>
